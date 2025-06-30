@@ -1,0 +1,84 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "file",
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.lineHeight": 1.8,
+  "editor.renderLineHighlight": "all",
+  "editor.linkedEditing": true,
+  "editor.largeFileOptimizations": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.fastScrollSensitivity": 5,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.overviewRulerBorder": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fit",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 2,
+  "editor.rulers": [120],
+  "editor.smoothScrolling": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.mouseWheelZoom": true,
+  "editor.suggestSelection": "first",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+
+  "files.trimTrailingWhitespace": false,
+  "files.associations": {
+    ".env.production": "properties",
+    ".env.docker": "properties"
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "window.titleBarStyle": "custom",
+  "window.autoDetectColorScheme": false,
+  "window.closeWhenEmpty": false,
+  "window.density.editorTabHeight": "compact",
+  "window.zoomPerWindow": true,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.iconClickBehavior": "toggle",
+  "workbench.navigationControl.enabled": false,
+  "workbench.activityBar.location": "default",
+  "workbench.panel.showLabels": false,
+  "workbench.colorTheme": "Default Light Modern",
+
+  "extensions.ignoreRecommendations": false,
+  "extensions.autoUpdate": true,
+
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": false,
+  "git.openRepositoryInParentFolders": "always",
+  "git.suggestSmartCommit": false,
+
+  "material-icon-theme.activeIconPack": "nest",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0
+}
