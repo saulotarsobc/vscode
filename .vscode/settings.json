@@ -12,7 +12,7 @@
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.overviewRulerBorder": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -45,7 +45,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
 
-  "window.titleBarStyle": "custom",
   "window.autoDetectColorScheme": false,
   "window.closeWhenEmpty": false,
   "window.density.editorTabHeight": "compact",
@@ -56,7 +55,7 @@
   "workbench.navigationControl.enabled": false,
   "workbench.activityBar.location": "default",
   "workbench.panel.showLabels": false,
-  "workbench.colorTheme": "Default Light Modern",
+  "workbench.colorTheme": "Min Light",
 
   "extensions.ignoreRecommendations": false,
   "extensions.autoUpdate": true,
@@ -74,8 +73,6 @@
   "git.suggestSmartCommit": false,
 
   "material-icon-theme.activeIconPack": "nest",
-
-  "security.workspace.trust.untrustedFiles": "open",
 
   "typescript.updateImportsOnFileMove.enabled": "always",
 
