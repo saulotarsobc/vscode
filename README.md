@@ -104,14 +104,6 @@
     "cd": true,
     "npm run": true,
     "git status": true
-  },
-
-  // personal settings below
-  "remote.SSH.configFile": "C:\\Users\\saulo\\.ssh\\config",
-  "remote.SSH.remotePlatform": {
-    "llbi-apps": "linux",
-    "zumee": "linux",
-    "llbi-grafana": "linux"
   }
 }
 
