@@ -1,18 +1,16 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSaveMode": "file",
   "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.lineHeight": 1.8,
   "editor.renderLineHighlight": "all",
   "editor.linkedEditing": true,
   "editor.largeFileOptimizations": false,
-  "editor.formatOnSave": true,
   "editor.tabSize": 4,
   "editor.fastScrollSensitivity": 5,
   "editor.suggest.snippetsPreventQuickSuggestions": false,
   "editor.overviewRulerBorder": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -22,7 +20,6 @@
   "editor.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 2,
-  "editor.rulers": [120],
   "editor.smoothScrolling": true,
   "editor.scrollBeyondLastLine": true,
   "editor.mouseWheelZoom": true,
@@ -31,6 +28,12 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "explicit",
+    "source.removeUnusedImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
 
   "files.trimTrailingWhitespace": false,
   "files.associations": {
@@ -50,12 +53,17 @@
   "window.density.editorTabHeight": "compact",
   "window.zoomPerWindow": true,
 
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.iconClickBehavior": "toggle",
   "workbench.navigationControl.enabled": false,
   "workbench.activityBar.location": "default",
   "workbench.panel.showLabels": false,
-  "workbench.colorTheme": "Min Light",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.db": "sqlite-viewer.view"
+  },
 
   "extensions.ignoreRecommendations": false,
   "extensions.autoUpdate": true,
@@ -76,6 +84,22 @@
 
   "typescript.updateImportsOnFileMove.enabled": "always",
 
-  "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.maxComputationTime": 0
+  "github.copilot.nextEditSuggestions.enabled": true,
+
+  "biome.suggestInstallingGlobally": false,
+
+  "chat.mcp.serverSampling": {
+    "Global in Code: chromedevtools/chrome-devtools-mcp": {
+      "allowedModels": ["copilot/grok-code-fast-1"]
+    }
+  },
+  "chat.agent.maxRequests": 500,
+  "chat.tools.terminal.autoApprove": {
+    "ls": false,
+    "dir": false,
+    "curl": true,
+    "cd": true,
+    "npm run": true,
+    "git status": true
+  }
 }
