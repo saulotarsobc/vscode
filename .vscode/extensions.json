@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "wart.ariake-dark",
+    "prisma.prisma",
+    "dbaeumer.vscode-eslint",
+    "github.copilot",
+    "biomejs.biome",
+    "ms-azuretools.vscode-containers",
+    "ms-azuretools.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "ritwickdey.liveserver",
+    "yzhang.markdown-all-in-one",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode.remote-explorer",
+    "qwtel.sqlite-viewer",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode.vscode-typescript-next",
+    "golang.go",
+    "hediet.vscode-drawio",
+    "njpwerner.autodocstring"
+  ]
+}
