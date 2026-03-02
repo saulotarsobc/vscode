@@ -40,7 +40,7 @@
     ".env.production": "properties",
     ".env.example": "properties",
     ".env.local": "properties",
-    "*.gs": "javascript"
+    "*.gs": "javascript",
   },
 
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -62,12 +62,12 @@
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.autoLockGroups": {
-    "jsProfileVisualizer.cpuprofile.table": true
+    "jsProfileVisualizer.cpuprofile.table": true,
   },
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.db": "sqlite-viewer.view",
-    "*.md": "vscode.markdown.preview.editor"
+    "*.md": "vscode.markdown.preview.editor",
   },
 
   "extensions.ignoreRecommendations": false,
@@ -88,7 +88,7 @@
   "material-icon-theme.folders.associations": {
     "infra": "Cluster",
     "dev": "Debug",
-    "prod": "Server"
+    "prod": "Server",
   },
 
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -100,7 +100,7 @@
     "*": true,
     "plaintext": false,
     "markdown": true,
-    "scminput": false
+    "scminput": false,
   },
 
   // chat settings
@@ -115,13 +115,13 @@
     "git status": true,
     "git diff": true,
     "npm run": true,
-    "npm i": true,
     "npm start": true,
     "docker logs": true,
     "mkdir": true,
     "npm install": true,
     "npm test": true,
-    "Test-Path": true
-  }
+    "Test-Path": true,
+  },
 }
+
 ```
